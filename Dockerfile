@@ -24,7 +24,7 @@ EXPOSE 8080
 # Pass environment variables (modify as needed)
 ENV BASE_URL=http://localhost:8080
 ENV DATABASE_URL=mysql://shortener_user:s3cur3_p4ssw0rd@127.0.0.1:3306/url_shortener
-ENV HOST=127.0.0.1
+ENV HOST=0.0.0.0
 ENV PORT=8080
 
 # Set the command to execute the binary
