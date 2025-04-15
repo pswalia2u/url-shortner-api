@@ -100,6 +100,9 @@ export BASE_URL="http://localhost:8080"
 ## Running the Application
 
 ```bash
+# Run the container from the image built
+docker run -e HOST=0.0.0.0 -e PORT=80 -e DATABASE_URL=mysql://shortener_user:s3cur3_p4ssw0rd@127.0.0.1:3306/url_shortener -p 65530:80 url-shortner
+
 # Run directly
 cargo run --release
 
