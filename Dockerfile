@@ -28,4 +28,4 @@ ENV HOST=0.0.0.0
 ENV PORT=8080
 
 # Set the command to execute the binary
-# CMD ["/usr/local/bin/url-shortener-api"]
+CMD ["/usr/local/bin/url-shortener-api"]
