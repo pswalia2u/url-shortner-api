@@ -2,6 +2,8 @@
 
 A lightweight, high-performance URL shortening service built with Rust, Actix Web, and MySQL.
 
+![Architecture Diagram](./architecture.png)
+
 ## Features
 
 - Create short URLs for any valid web address
